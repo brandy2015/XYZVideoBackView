@@ -12,6 +12,11 @@
 		D6C6E07821D391E900306857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E07621D391E900306857 /* Main.storyboard */; };
 		D6C6E07A21D391EA00306857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E07921D391EA00306857 /* Assets.xcassets */; };
 		D6C6E07D21D391EA00306857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E07B21D391EA00306857 /* LaunchScreen.storyboard */; };
+		D6C6E08521D392A600306857 /* XYZVideoBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E08421D392A600306857 /* XYZVideoBackView.swift */; };
+		D6C6E08721D392AA00306857 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6E08621D392AA00306857 /* VideoBackgroundError.swift */; };
+		D6C6E08B21D3945400306857 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E08921D3945400306857 /* LICENSE */; };
+		D6C6E08C21D3945400306857 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E08A21D3945400306857 /* README.md */; };
+		D6C6E08E21D3945900306857 /* XYZVideoBackView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6C6E08D21D3945900306857 /* XYZVideoBackView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		D6C6E07921D391EA00306857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C6E07C21D391EA00306857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C6E07E21D391EA00306857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C6E08421D392A600306857 /* XYZVideoBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZVideoBackView.swift; sourceTree = "<group>"; };
+		D6C6E08621D392AA00306857 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundError.swift; sourceTree = "<group>"; };
+		D6C6E08921D3945400306857 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6C6E08A21D3945400306857 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6C6E08D21D3945900306857 /* XYZVideoBackView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZVideoBackView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,9 @@
 		D6C6E06621D391E900306857 = {
 			isa = PBXGroup;
 			children = (
+				D6C6E08921D3945400306857 /* LICENSE */,
+				D6C6E08A21D3945400306857 /* README.md */,
+				D6C6E08D21D3945900306857 /* XYZVideoBackView.podspec */,
 				D6C6E07121D391E900306857 /* XYZVideoBackView */,
 				D6C6E07021D391E900306857 /* Products */,
 			);
@@ -56,12 +69,22 @@
 			children = (
 				D6C6E07221D391E900306857 /* AppDelegate.swift */,
 				D6C6E07421D391E900306857 /* ViewController.swift */,
+				D6C6E08821D392C700306857 /* Source */,
 				D6C6E07621D391E900306857 /* Main.storyboard */,
 				D6C6E07921D391EA00306857 /* Assets.xcassets */,
 				D6C6E07B21D391EA00306857 /* LaunchScreen.storyboard */,
 				D6C6E07E21D391EA00306857 /* Info.plist */,
 			);
 			path = XYZVideoBackView;
+			sourceTree = "<group>";
+		};
+		D6C6E08821D392C700306857 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6C6E08421D392A600306857 /* XYZVideoBackView.swift */,
+				D6C6E08621D392AA00306857 /* VideoBackgroundError.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +147,10 @@
 			files = (
 				D6C6E07D21D391EA00306857 /* LaunchScreen.storyboard in Resources */,
 				D6C6E07A21D391EA00306857 /* Assets.xcassets in Resources */,
+				D6C6E08C21D3945400306857 /* README.md in Resources */,
+				D6C6E08B21D3945400306857 /* LICENSE in Resources */,
 				D6C6E07821D391E900306857 /* Main.storyboard in Resources */,
+				D6C6E08E21D3945900306857 /* XYZVideoBackView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C6E07521D391E900306857 /* ViewController.swift in Sources */,
+				D6C6E08521D392A600306857 /* XYZVideoBackView.swift in Sources */,
+				D6C6E08721D392AA00306857 /* VideoBackgroundError.swift in Sources */,
 				D6C6E07321D391E900306857 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
