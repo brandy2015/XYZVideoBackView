@@ -1,24 +1,25 @@
 //
-//  VideoBackground.swift
-//  SwiftVideoBackground
+
+//  XYZVideoBackView
 //
-//  Created by Wilson Ding on 9/20/16.
-//  Copyright © 2016 Wilson Ding. All rights reserved.
+//  Created by 张子豪 on 2018/12/26.
+//  Copyright © 2018 张子豪. All rights reserved.
 //
 
 //try? VideoBackground.shared.play(view: view, videoName: "Background", videoType: "mp4")
 //
 //navigationController?.isNavigationBarHidden = true
 
-
-import AVFoundation
 import UIKit
+import AVFoundation
+
 
 /// Class that plays and manages control of a video on a `UIView`.
 public class XYZVideoBackView {
     /// Singleton that can play one video on one `UIView` at a time.
     public static let shared = XYZVideoBackView()
 
+    
     /// Change this `CGFloat` to adjust the darkness of the video. Value `0` to `1`. Higher numbers are darker. Setting
     /// to an invalid value does nothing.
     public var darkness: CGFloat = 0 {
@@ -175,6 +176,7 @@ public class XYZVideoBackView {
                 }else{
                     self?.cleanUp()
 //                    self?.playerLayer.removeFromSuperlayer()
+                    
                 }
         }
 
