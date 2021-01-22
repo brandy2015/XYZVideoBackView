@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYZVideoBackView"
-  s.version      = "1.1.1"
+  s.version      = "3.0.1"
   s.summary      = "持续升级"
 
   # This description is used to generate tags and improve search results.
@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
 
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "13.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZVideoBackView.git", :tag => "1.1.1"}
+  s.source       = { :git => "https://github.com/brandy2015/XYZVideoBackView.git", :tag => "3.0.1"}
   s.source_files = "XYZVideoBackView/Source/*"
 
 
